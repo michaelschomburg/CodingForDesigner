@@ -1,0 +1,85 @@
+* {
+font-family: 'Roboto Condensed', sans-serif; /*  you changed the font in the html file you need to adjust it accordingly */
+}
+
+body {
+/* you can set a body color here */
+}
+
+p {
+  margin: 0;
+}
+
+#background-image {
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  /* make the video appear proportional here */
+}
+
+.card {
+  width: 20%;
+  margin: 0 auto;
+  margin-top: 40px;
+  box-shadow: 10px 10px 10px rgba(25, 30, 31, 0.25), 0 10px 10px rgba(25, 30, 31, 0.25), -10px 10px 10px rgba(25, 30, 31, 0.25);
+  /* adjust background color and the corners of the card here */
+}
+
+/* don't touch this */
+.flex {
+  margin: 15px;
+  display: flex;
+  height: 15px;
+  align-items: center;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+/* don't touch this */
+.flex p,
+.flex img {
+  display: inline;
+}
+
+.flex p {
+/* adjust the text color and the font size and weight here */
+  margin-left: 10px;
+}
+
+.first {
+  margin-top: 30px;
+}
+
+.flex:last-of-type {
+  padding-bottom: 30px;
+}
+
+#profile-image {
+  /* make the image rounded and set the size */
+  border: 3px solid white;
+  position: relative;
+  top: -65px;
+  left: 95px; /* see what happens if you change this number */
+}
+
+.name {
+  text-align: center;
+  margin-top: -50px;
+}
+
+#users-name {
+  font-size: 25px;
+  color: #4e4a4a;
+}
+
+#job-title {
+  color: #a0a0a0;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+#location,
+#company,
+#email {
+    /* set the size of the icons use width or height */
+}

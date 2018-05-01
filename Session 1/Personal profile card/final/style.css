@@ -1,0 +1,88 @@
+* {
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+  background-color: #e4e4e4;
+}
+
+p {
+  margin: 0;
+}
+
+#background-image {
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  height: 151px;
+}
+
+.card {
+  width: 20%;
+  margin: 0 auto;
+  margin-top: 40px;
+  background-color: #F8F7F9;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px rgba(25, 30, 31, 0.25), 0 10px 10px rgba(25, 30, 31, 0.25), -10px 10px 10px rgba(25, 30, 31, 0.25);
+
+}
+
+.flex {
+  margin: 15px;
+  display: flex;
+  height: 15px;
+  align-items: center;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.flex p,
+.flex img {
+  display: inline;
+}
+
+.flex p {
+  color: #545454;
+  font-weight: 100;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.first {
+  margin-top: 30px;
+}
+
+.flex:last-of-type {
+  padding-bottom: 30px;
+}
+
+#profile-image {
+  width: 40%;
+  border: 3px solid white;
+  border-radius: 50%;
+  position: relative;
+  top: -65px;
+  left: 95px;
+}
+
+.name {
+  text-align: center;
+  margin-top: -50px;
+}
+
+#users-name {
+  font-size: 25px;
+  color: #4e4a4a;
+}
+
+#job-title {
+  color: #a0a0a0;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+#location,
+#company,
+#email {
+  height: 15px;
+}
