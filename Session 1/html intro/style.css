@@ -1,12 +1,8 @@
-#important-headline {
-  color: red;
+h1 {
+  color: #FFDDEE;
 }
 
-/*
-.headline{
-  color: blue;
-} */
-
-h1 {
+.headline {
   color: green;
+  font-size: 200px;
 }
